@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="SmartDiet/gen"/>
+	<classpathentry kind="src" path="SmartDiet/src"/>
+	<classpathentry kind="lib" path="SmartDiet/bin/dexedLibs/android-support-v4-5c642cde3028849b0db15971b9c5e6af.jar"/>
+	<classpathentry kind="lib" path="SmartDiet/bin/dexedLibs/android-support-v4-6492d23ff00f1aae63bb624cd0a9e857.jar"/>
+	<classpathentry kind="lib" path="SmartDiet/bin/dexedLibs/android-support-v4-91fc7e6e6f08e16592cfa1e58d0ec330.jar"/>
+	<classpathentry kind="lib" path="SmartDiet/bin/dexedLibs/android-support-v4-995e05987dec6ee516758ae7f9f97b20.jar"/>
+	<classpathentry kind="lib" path="SmartDiet/bin/dexedLibs/android-support-v4-e25ddc578e8eaf47937e021a77ce6524.jar"/>
+	<classpathentry kind="lib" path="SmartDiet/bin/dexedLibs/android-support-v4-fbd6e3d54ece12c135c58181a9467f70.jar"/>
+	<classpathentry kind="lib" path="SmartDiet/libs/android-support-v4.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="SmartDiet/bin/classes"/>
+</classpath>

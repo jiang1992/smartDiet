@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/registration"
+    tools:context=".RegistrationActivity" >
+
+    <RadioGroup
+        android:id="@+id/radioSex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText3"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/girlRadioButton"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="Female"
+            tools:ignore="HardcodedText"
+            android:color="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/boyRadioButton"
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="Male"
+            tools:ignore="HardcodedText"
+            android:color="#FFFFFF" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText3"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_marginBottom="29dp"
+        android:ems="10"
+        android:hint="@string/heightEditText"
+        android:textColorHint="#FFFFFF"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/radioSex"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:hint="@string/weightEditText"
+        android:textColorHint="#FFFFFF"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="91dp"
+        android:alpha="0"
+        android:onClick="onFinishedClicked"
+        android:text="Finish"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText2"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginRight="28dp"
+        android:ems="10"
+        android:fontFamily="@drawable/bankgothicbold"
+        android:hint="@string/ageEditText"
+        android:textColorHint="#FFFFFF"
+        android:textSize="12sp" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>

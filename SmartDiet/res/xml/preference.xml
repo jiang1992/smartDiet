@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory 
+        android:title="pref_sms_storage_title"
+        android:key="pref_key_settings" >
+    	<ListPreference 
+     	   	android:dependency="pref_sync"
+      	  	android:key="pref_syncConnectionType"
+      	  	android:title="Title"
+      	  	android:dialogTitle="Connection Type"/>
+   	 	<CheckBoxPreference 
+      	 	 android:key="pref_sync"
+      		 android:title="Title"
+       		 android:summary="Summary"
+       		 android:defaultValue="true" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

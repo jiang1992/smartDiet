@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Settings"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_settings" />
+	<item
+	    android:id="@+id/action_search"
+        android:icon="@drawable/ic_action_cloud"
+        android:title="Calendar"
+        android:showAsAction="ifRoom"/>
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Smart Diet</string>
+    <string name="action_settings">HEYHEYHEY</string>
+    <string name="title_section1">Home</string>
+    <string name="title_section2">Consume</string>
+    <string name="title_section3">Calendar</string>
+    <string name="title_section4">Profile</string>
+    <string name="title_section5">Settings</string>
+    <string name="consume_button">Consume a Meal</string>
+    <string name="title_activity_display_meals">My meals</string>
+    <string name="hello_world_consume">Look at these meals!</string>
+    <string name="createMeal_button">Create a New Meal</string>
+    <string name="title_activity_create_meals">Create Meals</string>
+    <string name="hello_world_createMeal">Create a new meal!</string>
+    <string name="ageEditText">Enter your Age</string>
+    <string name="heightEditText">Enter your height</string>
+    <string name="weightEditText">Enter your weight</string>
+    <string name="title_registration">Registration</string>
+	
+    <string name="age_">Age:</string>
+    <string name="title_activity_login">Login</string>
+    <string name="hello_world">Login Screen</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="Login">Login:</string>
+    <string name="attempts">Attempts Left:</string>
+
+ 	<string name="quick_enter">Quick Enter</string>
+    <string-array name="recent_meal">
+        <item>Recent Meal</item>
+        <item>B</item>
+        <item>U</item>
+        <item>R</item>
+        <item>G</item>
+        <item>E</item>
+        <item>R</item>
+        <item>R</item>
+        <item>R</item>
+    </string-array>
+        <string name="CustMealName">Meal Name</string>
+        <string name="CustCaloriesText">Calories</string>
+        <string name="CustCarbsText">Carbs</string>
+        <string name="CustProteinsText">Proteins</string>
+        <string name="CustFatsText">Fats</string>
+        <string name="Submit">Submit</string>
+ 
+</resources>

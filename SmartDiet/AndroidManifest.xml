@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.smartdiet"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.smartdiet.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.smartdiet.DisplayMeals"
+            android:label="@string/title_activity_display_meals"
+            android:parentActivityName="com.example.smartdiet.MainActivity" >
+        </activity>
+        <activity
+            android:name="com.example.smartdiet.CreateMeals"
+            android:label="@string/title_activity_create_meals"
+            android:parentActivityName="com.example.smartdiet.MainActivity" >
+        </activity>
+        <activity android:name="org.achartengine.GraphicalActivity" />
+        <activity
+            android:name="com.example.smartdiet.RegistrationActivity"
+            android:label="@string/title_registration" >
+        </activity>
+        <activity
+            android:name="com.example.smartdiet.Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity android:name="com.example.smartdiet.InitialRegistration" >
+        </activity>
+        <activity
+            android:name="com.example.smartdiet.DailyDisplay"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.smartdiet.VeryAwesomeCalendar"
+            android:parentActivityName="com.example.smartdiet.MainActivity" >
+        </activity>
+        <activity
+            android:name="com.example.smartdiet.ActualLoginActivity"
+            android:label="@string/title_activity_actual_login"
+            android:parentActivityName="com.example.stokedapparatus.MainActivity"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.stokedapparatus.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

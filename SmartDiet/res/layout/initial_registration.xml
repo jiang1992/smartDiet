@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:background="@drawable/profile"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register to SmartDiet"
+            android:id="@+id/textView" android:layout_gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000000"/>
+    <TextView
+            android:layout_width="125dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:text="Password"
+            android:id="@+id/textView6"
+            android:layout_alignTop="@+id/pword"
+            android:layout_alignRight="@+id/textView5"
+            android:textSize="15dp"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="56dp"
+            android:textColor="#000000"
+            android:id="@+id/register_error"
+            android:layout_below="@+id/register"
+            android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="21dp"
+        android:text="Username"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/bktologin"
+        android:layout_width="175dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/register"
+        android:layout_alignRight="@+id/register"
+        android:layout_alignTop="@+id/register_error"
+        android:layout_marginTop="36dp"
+        android:text="Back To Login"
+        android:onClick="switch2"
+        android:textColor="#000000"
+        android:textSize="13dp" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Register"
+        android:textColor="#000000"
+        android:onClick="switch1"
+        android:textSize="13dp" />
+
+    <EditText
+        android:id="@+id/uname"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/textView5"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:hint="Username"
+        android:textColor="#000000"
+        android:textSize="15dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/pword"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="42dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+</RelativeLayout>
